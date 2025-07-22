@@ -212,3 +212,38 @@ main {
         flex-direction: column;
     }
 }
+
+/* Share Sectie Styling */
+.share-section {
+    background-color: #eef7ff; /* Lichte blauwe achtergrond */
+    border: 1px solid #cce4ff;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-align: center;
+}
+.share-section h3 {
+    margin-top: 0;
+    color: var(--primary-blue);
+}
+.share-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.share-btn {
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: opacity 0.2s;
+}
+.share-btn:hover {
+    opacity: 0.85;
+}
+.share-btn.twitter { background-color: #1DA1F2; }
+.share-btn.linkedin { background-color: #0A66C2; }
+.share-btn.facebook { background-color: #1877F2; }
