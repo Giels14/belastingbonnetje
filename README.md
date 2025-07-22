@@ -4,9 +4,7 @@ Ooit afgevraagd waar jouw zuurverdiende belastinggeld precies naartoe gaat? Stop
 
 [![Licentie: MIT](https://img.shields.io/badge/Licentie-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-***(Tip: Maak een screenshot van je live website en plaats die hier! Een beeld zegt meer dan duizend woorden.)***
-`![Screenshot van Belastingbonnetje.nl]([link-naar-je-screenshot.png](https://drive.google.com/file/d/1pG4Qc0j8GOwCCw6M3CeCpUMh6OZUuHgt/view?usp=sharing))`
-
+![Screenshot van Belastingbonnetje.nl](https://raw.githubusercontent.com/Giels14/belastingbonnetje/main/belastingbonnetje%20screenshot.jpg)
 ---
 
 ## 🤔 Waarom dit project?
