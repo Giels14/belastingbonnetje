@@ -1,0 +1,214 @@
+/* Algemene Styling */
+:root {
+    --primary-blue: #007AFF;
+    --dark-grey: #333333;
+    --light-grey: #F9F9F9;
+    --border-grey: #EAEAEA;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
+    margin: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Header & Footer */
+.main-header, .main-footer {
+    text-align: center;
+    padding: 20px;
+}
+.main-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+.main-header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #666;
+}
+.main-footer {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Input Sectie */
+.input-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+}
+.input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.currency-symbol {
+    font-size: 1.5rem;
+    color: #999;
+}
+#tax-input {
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+#calculate-btn {
+    background-color: var(--primary-blue);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#calculate-btn:hover {
+    background-color: #0056b3;
+}
+.error-message {
+    color: #D32F2F;
+    height: 20px;
+    margin-top: 10px;
+}
+
+/* Resultaten Sectie */
+.results-section {
+    margin-top: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.results-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.results-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Accordion Styling */
+.category-item {
+    background-color: #fff;
+    border: 1px solid var(--border-grey);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+.category-header.expandable:hover {
+    background-color: #f7f7f7;
+}
+.category-name {
+    font-weight: 700;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.category-amount {
+    font-weight: 700;
+    color: var(--primary-blue);
+}
+.category-toggle, .category-toggle-placeholder {
+    font-size: 1.5rem;
+    color: #aaa;
+    width: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.subcategory-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0 15px;
+    background-color: #fafafa;
+}
+.category-item.is-open .subcategory-list {
+    max-height: 500px; /* Large enough for content */
+    padding: 15px 15px 15px 15px;
+}
+.category-item.is-open .category-toggle {
+    transform: rotate(45deg);
+}
+.subcategory-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-top: 1px solid var(--border-grey);
+    font-size: 0.9rem;
+}
+.subcategory-name {
+    color: #555;
+}
+.subcategory-amount {
+    color: #555;
+    font-weight: 700;
+}
+
+/* About Sectie Styling */
+.about-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-top: 40px;
+    text-align: left;
+}
+.about-section h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.about-section h3 {
+    color: var(--primary-blue);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.about-section p {
+    margin-bottom: 10px;
+}
+.about-section a {
+    color: var(--primary-blue);
+    font-weight: 700;
+    text-decoration: none;
+}
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .input-form {
+        flex-direction: column;
+    }
+}

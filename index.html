@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belastingbonnetje.nl - Waar gaat jouw belastinggeld naartoe?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>belastingbonnetje.nl</h1>
+        <p>Een simpele uitsplitsing van jouw belastinggeld</p>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <h2>Waar gaat jouw belastinggeld naartoe?</h2>
+            <p>Voer hieronder in hoeveel inkomstenbelasting je afgelopen jaar hebt betaald.</p>
+            <div class="input-form">
+                <span class="currency-symbol">€</span>
+                <input type="number" id="tax-input" placeholder="bv. 15000" min="0">
+                <button id="calculate-btn">Toon mijn bonnetje</button>
+            </div>
+            <p id="error-message" class="error-message"></p>
+        </section>
+
+        <section id="results-section" class="results-section"></section>
+
+        <section id="about-section" class="about-section">
+            <h2>Over dit 'bonnetje'</h2>
+            <div class="about-content">
+                <h3>Waarom?</h3>
+                <p>Dit initiatief is gebouwd door Giels Brouwer om een transparant overzicht te maken waar ons belastinggeld naartoe gaat. Wat krijg je er als burger voor terug? Een helder inzicht hierin kan helpen om het maatschappelijk dialoog over de bestedingen van de overheid te bevorderen en het vertrouwen te vergroten.</p>
+                
+                <h3>Hoe?</h3>
+                <p>Dit 'bonnetje' is een versimpelde weergave van de werkelijkheid. We hebben de totale uitgaven van de Rijksoverheid, zoals vastgesteld in de begroting voor 2025, als basis genomen. De complexe uitgavenposten per ministerie zijn gegroepeerd en vertaald naar begrijpelijke categorieën, zoals 'Zorg' of 'Onderwijs'. Jouw ingevulde belastingbedrag wordt vervolgens procentueel verdeeld over deze posten.</p>
+                
+                <h3>Bron</h3>
+                <p>Alle cijfers zijn gebaseerd op de officiële <a href="https://www.rijksoverheid.nl/onderwerpen/prinsjesdag/miljoenennota-en-andere-officiele-stukken" target="_blank">Miljoenennota 2025</a> en de bijbehorende Rijksbegroting, zoals gepubliceerd door het Ministerie van Financiën. Dit is de meest betrouwbare bron voor de overheidsuitgaven van Nederland.</p>
+            </div>
+        </section>
+        </main>
+
+    <footer class="main-footer">
+        <p><em>Disclaimer: Dit is een versimpelde weergave. Er kunnen geen rechten aan worden ontleend.</em></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
