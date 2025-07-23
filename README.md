@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Giels14/belastingbonnetje/main/assets/belastingbonnetje-logo.png" alt="Logo van Belastingbonnetje.nl" width="150">
+  <img src="https://raw.githubusercontent.com/Giels14/belastingbonnetje/main/assets/belastingbonnetje-logo.jpeg" alt="Logo van Belastingbonnetje.nl" width="150">
 </div>
 
 # Belastingbonnetje.nl 🧾
