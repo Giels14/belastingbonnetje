@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Giels14/belastingbonnetje/main/assets/belastingbonnetje-logo.jpeg" alt="Logo van Belastingbonnetje.nl" width="150">
+  <img src="https://raw.githubusercontent.com/Giels14/belastingbonnetje/main/assets/Belastingbonnetje-logo.png" alt="Logo van Belastingbonnetje.nl" width="150">
 </div>
 
 # Belastingbonnetje.nl 🧾
@@ -14,7 +14,7 @@ Ooit afgevraagd waar jouw zuurverdiende belastinggeld precies naartoe gaat? Stop
 
 ## 🤔 Waarom dit project?
 
-Dit initiatief is gebouwd door Giels Brouwer vanuit een simpele overtuiging: transparantie is de basis van vertrouwen. In een democratie is het essentieel dat burgers weten hoe hun geld wordt besteed. Wat krijgen we als samenleving terug voor onze belastingbijdrage? Het is geïnspireerd op de Australische belastingaangifte, waar wordt aangegeven welk bedrag naar welke post gaat: **[Reddit link](https://www.reddit.com/r/interestingasfuck/comments/cl9jvt/australian_government_outlines_how_my_taxes_are/)**.
+Dit initiatief is gebouwd door [Giels Brouwer](https://www.linkedin.com/in/giels/) vanuit een simpele overtuiging: transparantie is de basis van vertrouwen. Het idee is geïnspireerd op Australië, waar de overheid haar burgers standaard een <a href="https://www.reddit.com/r/interestingasfuck/comments/cl9jvt/australian_government_outlines_how_my_taxes_are/" target="_blank">vergelijkbaar persoonlijk overzicht</a> geeft. In een democratie is het essentieel dat burgers weten hoe hun geld wordt besteed. Wat krijgen we als samenleving terug voor onze belastingbijdrage?
 
 `Belastingbonnetje.nl` heeft als doel om:
 * **Inzicht te geven:** Complexe begrotingen omzetten in een begrijpelijk persoonlijk overzicht.
@@ -53,4 +53,4 @@ Dit project is uitgebracht onder de **MIT-licentie**. Dit betekent dat je er vri
 
 ---
 
-Gebouwd met veel plezier en een passie voor openheid door **Giels Brouwer**. Laten we het gesprek starten!
+Gebouwd met veel plezier en een passie voor openheid door **[Giels Brouwer](https://www.linkedin.com/in/giels/)**. Heb je vragen, tips of aanbevelingen? Neem dan gerust contact op via [giels@belastingbonnetje.nl](mailto:giels@belastingbonnetje.nl).
