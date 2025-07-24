@@ -251,7 +251,7 @@ main {
 
 /* Styling voor het logo in de header */
 .site-logo {
-    height: 60px; /* Verander dit getal naar de gewenste grootte */
+    height: 90px; /* Verander dit getal naar de gewenste grootte */
     width: auto; 
     margin-bottom: 10px;
 }
